@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ICANN HAZ</title>
+<script type="text/javascript" src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css">
+
+<script type="text/javascript" src="data.js"></script>
+<script type="text/javascript" src="icann.js"></script>
+<link rel="stylesheet" type="text/css" href="icann.css">
+
+</head>
+  
+<body>
+  <div id="main">
+    <p>ICANN is committed to being transparent, open and accountable. A key pillar for ensuring that ICANN honors those commitments is the regular reporting of key performance indicators (KPIs) in an accessible, detailed and expansive manner, which also dovetails with requests made by the Community. In 2008, ICANN launched a publicly available dashboard that was accessible from the front page of the website and captured a number of metrics, allowing community members to gain a clearer understanding of ICANN’s internal operations. ICANN’s KPIs typically included: Terminated Registrar’s data, Fellowship Program numbers, number of Registrations, revenue by source, operating expenses compared to budgets, and alternative views of ICANN’s expenses; these are just a few examples. ICANN has revised its dashboards to not only provide updated reporting but to present metrics in a more user-friendly and dynamic fashion. Examples of this are: newly available performance metrics on IDN Fast Track; company-wide multiyear trending analysis; and augmented financial data.</p>
+
+    <p>Below is an explanation of how to read and understand the new KPI charts…(the charts below are for illustrative purposes only)</p>
+
+    <p>The dashboard example below contains three dynamic charts that are all related. The main chart is labeled Multiple Drill-Down in Dashboard Mode and shows a multiyear view that in future ICANN charts will be differentiated by color. Click on any yearly column and it will become highlighted with a star and slanted lines, and the data details become illustrated in the piecharts beneath - see the left chart labeled, 2005 Q1-Q2 and the bottom-right chart, 2005 Q3-Q4. When a dashboard chart is first loaded, the most recent data will be shown; this information is then refreshed each month by ICANN staff.</p>
+  </div>
+  <div id="dialog" class="dialog" style="display: none;">
+    <span class="dialogClose" onclick="dialogClose()">X</span>
+    <div class="dialogleft" class="left">
+      <h1 id="keyword">NTAP</h1>
+      <form method="get" action="/search" id="search">
+        <input name="q" type="text" size="40" placeholder="Change Language" />
+      </form>
+      <p id="definition">An abbreviation for the GNSO OSC Constituency and Stakeholder Group Operations Team.  </p>
+      <p>It is also known as the GNSO Council Operations Work Team. It was established by the GNSO Operations Steering Committee (OSC) to identify areas that need to be reviewed in order to best seat the new Council, and to provide recommendations to update areas and submit them to the OSC for reviewing feedback. [1]
+      <div id="navcontainer" class="verticalLine">
+        <ul id="navlist">
+        <h2>What others are saying</h2>
+   
+        <p>Stakeholder means the people who are in charge of making the decision. Similiar to...</p>
+        <p class="commentor" >Posted by: Jehn Glynn</p>
+   
+        <p>Usually people refer to this when discussing</p>
+        <p class="commentor" >Posted by: Brittany Winston</p>
+ 
+  
+        <p>In our country policies like this are administred by the Join Fraction Committee</p>
+        <p class="commentor" >Posted by: Tyesha Snow</p>
+      </div>
+    </div>
+    <div class="dialogright">
+      <h2><strong>Add to this definition</strong></h2>
+      <p> Is this definition accurate?</p>
+      <p>Can you provide contect or information that might be helpful to others?"</p>
+      <textarea id="resizable" style="width: 95%"></textarea>
+      <a href="#" class="submitButton">Submit</a>
+      <p><a href="#">Wiki Link ></a></p>
+    </div>
+</body>
+</html>
